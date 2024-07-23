@@ -1,62 +1,32 @@
-<!doctype html>
-<html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="anasse" >
-        <meta name="description" description="the official
-        website of cars">
-        <title>Cars sell</title>
-        <link rel="icon" href="/img/ferrari" type="image/x-icon">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    
-    <body>
-        <header>
-            <h1>WELCOME TO THE CARS MARKET</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about">about <aabr title="the cars market">TCM</aabr></a>
-                    </li>
-                    <li>
-                        <a href="/Ourmenu.html">Our menu <aabr title="the cars market"></aabr></a>
-                    </li>
-                    <li>
-                        <a href="hours.html">Hours<aabr title="the cars market"></aabr></a>
-                    </li>
-                    <li>
-                        <a href="/contact.html">Contact us<aabr title="the cars market"></aabr></a>
-                    </li>
-                </ul>
-                <figure>
-                    <img src="/img/OIP.jpg" alt="cars" title="cars" >
-                    <figcaption>
-                        Luxury cars
-                    </figcaption>
-                </figure>
-            </nav>
-        </header>
-        <hr>
-        <main>
-            <articel id="about">
-                <h2>About cars</h2>
-            </articel>
-            <p>
-                At cars sell, we pride ourselves on offering a diverse <br> selection of top-quality vehicles to suit every need and budget. Whether<br> you're in the market for a sleek sedan, a rugged SUV, or a powerful sports car,<br> we've got you covered.
-            </p>
-            <aside>
-                <h3>
-                    Cars prices
-                </h3>
-                <details>
-                    <summary>
-                        What is the most expensive car that we have?
-                    </summary>
-                    <p>Ferrari california T 2017</p>
-                </details>
-            </aside>
-        </main>
-        <hr>
-        <footer>Copyright&copy; The cars market</footer>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Grade calculator</h1>
+    <form id="gradeForm">
+        <label for="phisic">phisic</label>
+        <input type= "number" max="20"  min="0" id="phisic" name="phisic" required>
+
+        <label for="math">math</label>
+        <input type= "number" max="20" min="0" id="math" name="math" required>
+
+        <label for="science">Science</label>
+        <input type= "number" max="20" min="0" id="science" name="science" required>
+
+        <label for="english">English</label>
+        <input type= "number" max="20" min="0" id="english" name="english" required>
+
+        <label for="philosophie">Philosophie</label>
+        <input type= "number" max="20" min="0" id="philosophie" name="philosophie" required>
+        <button type="button" onclick="calculateGrade()">calculate</button>
+    </form>
+    <div id="result"></div>
+</div>
+    <script src="/script.js"></script>    
+</body>
 </html>
